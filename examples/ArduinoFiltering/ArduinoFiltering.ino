@@ -35,7 +35,7 @@ void loop() {
     Serial.print(lpf1.update(val)); Serial.print(",");
     Serial.print(lpf2.update(val)); Serial.print(",");
     Serial.print(hpf1.update(val)); Serial.print(",");
-    Serial.println(hpf2.update(val)); Serial.print(",");
+    Serial.println(hpf2.update(val));
 
     t++;
     
